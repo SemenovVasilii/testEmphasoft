@@ -1,0 +1,20 @@
+.userline {
+    display: contents;
+
+    &__cell {
+        background-color: white;
+        color: #333;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 5px;
+        font-family: 'Roboto';
+        word-break: break-all;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cell1 {
+        border-left: 1px solid black;
+    }
+}

@@ -1,0 +1,26 @@
+%text {
+    font-size: 26px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: deepskyblue;
+}
+
+.header {
+    background-color: deepskyblue;
+    padding: 10px 20px;
+    width: 100%;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        @extend %text
+    }
+}
+
+.navigation__logout {
+    background-color: deepskyblue;
+}
