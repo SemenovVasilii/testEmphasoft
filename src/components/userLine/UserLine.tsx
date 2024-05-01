@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import './UserLine.scss'
-import Delete from '../../ui/img/delete.png'
-import Edit from "../../ui/img/edit.png"
+import Delete from '../../ui/img/delete.svg'
+import Edit from "../../ui/img/edit.svg"
 import { deleteUserQuery } from '../../actions/User';
 import { store } from '../../store';
 import { SetEditUser } from '../../store/userReducer';

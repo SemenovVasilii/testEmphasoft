@@ -3,7 +3,7 @@ import { createUserSchema } from '../../lib'
 import { FC, useState } from 'react';
 import * as Yup from "yup";
 import { addUserQuery } from '../../actions';
-import Close from "../../ui/img/close.png"
+import Close from "../../ui/img/close.svg"
 
 interface IFormData {
     login: string;

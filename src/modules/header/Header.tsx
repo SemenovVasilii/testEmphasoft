@@ -1,6 +1,6 @@
 import './Header.scss'
 import { logout } from '../../actions'
-import Exit from '../../ui/img/exit.png'
+import Exit from '../../ui/img/logout.svg'
 
 function Header() {
     return (

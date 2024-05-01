@@ -4,7 +4,7 @@ import { editUserSchema } from '../../lib';
 import * as Yup from "yup";
 import { useSelector } from 'react-redux';
 import { RootState, store } from '../../store';
-import Close from "../../ui/img/close.png"
+import Close from "../../ui/img/close.svg"
 import { editUserQuery } from '../../actions/User';
 import { SetEditUser } from '../../store/userReducer';
 
